@@ -1,0 +1,115 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap');
+
+
+body{
+    background-color: #fcdafa;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+    margin: 350px;
+    border-radius: 100px;
+    background-color:#ffff;
+    width: 1000px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ajout d'une propriété display flex pour aligner les éléments horizontalement */
+  }
+  
+  nav li {
+    margin-right: 50px; /* pour ajouter un peu d'espace entre chaque élément */
+    color: black;
+  }
+  
+  nav li:last-child {
+    margin-right: 50px; /* pour supprimer l'espace après le dernier élément */
+  }
+  
+  nav li a {
+    text-decoration: none;
+  }
+  .btn{
+    background-color: #735dfe;
+    color: #ffff;
+    border-radius: 10px;
+    font-family:  'Arial', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+  }
+.container1{
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+   
+
+}  
+.btn1{
+    background-color: #735dfe;
+    color: #ffff;
+    border-radius: 10px;
+    font-family:  'Arial', sans-serif;
+    font-size: 20px;
+  }
+  .container2{
+    text-align: right;
+    border-radius: 100px;
+    margin-right: 10px;
+    padding: 50px;
+    background-color: #ec5df0;
+
+
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .container1 {
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    }
+    
+    .container2 {
+    text-align: right;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
